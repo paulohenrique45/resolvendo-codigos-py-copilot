@@ -1,12 +1,12 @@
-# Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+# Vamos solicitar uma palavra e um número inteiro para repeti-la.
 
-# Solicita os dois números
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
+# Solicita a palavra e a quantidade de repetições
+palavra = input("Digite uma palavra: ")
+quantidade = int(input("Digite um número inteiro: "))
 
-# Realiza uma operação simples (soma)
-resultado = numero1 + numero2
+# Repete a palavra a quantidade de vezes informada
+resultado = palavra * quantidade
 
 # Exibe o resultado
-print(f"A soma de {numero1} e {numero2} é: {resultado}")
+print(resultado)
 
